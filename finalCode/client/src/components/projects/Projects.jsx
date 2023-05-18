@@ -33,7 +33,7 @@ const Projects = ({state}) => {
             <h1 className="title">Projects </h1>
             <div className="card-wrapper">
                  {projects!=="" && projects.map((project)=>{
-                    const githubLink=`https://github.com/kshitijofficial/${project.githubLink}`
+                    const githubLink=`https://github.com/vishalgupta888/${project.githubLink}`
                     return ( <a href= {githubLink} className="project-card" target='_blank' rel="noopener noreferrer" >
                     <div className="card-img">
                         <img src={`https://gateway.pinata.cloud/ipfs/${project.image}`} alt="" /></div>
