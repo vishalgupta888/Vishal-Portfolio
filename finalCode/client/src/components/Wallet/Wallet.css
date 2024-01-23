@@ -30,6 +30,7 @@ a:hover{
     color: white !important;
 }
 .connectBTN:hover{
+    cursor: pointer;
     color: white;
     background-color: var(--color-blue);
 }
